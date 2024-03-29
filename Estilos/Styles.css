@@ -1,0 +1,203 @@
+body {
+  scroll-behavior: smooth;
+  background-color: rgba(250, 250, 250, 1);
+
+ 
+}
+section {
+  scroll-margin-top: 11em; /* Margen superior adicional para el desplazamiento */
+}
+header {
+ 
+  height: auto;
+  
+}
+
+#inicio {
+  position: fixed; /* Posición fija */
+  top: 0; /* Posición superior */
+  width: 100%; /* Ancho del contenedor */
+  height: auto;
+  background-image: url(../Imagenes/Turismo.jpg); /* Imagen de fondo */
+  background-color: #ffffff; /* Color de fondo */
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 100; /* Posición del elemento */
+ 
+  border-radius: 5%; /* Esto hará que la caja tenga bordes circulares */
+}
+
+#inicio h1 {
+  text-align: center; /* Centra el texto horizontalmente  dentro de su contenedor */
+  color: #000000; /* Color del texto */
+  font-size: 4vw; /* Tamaño de la fuente en relación con el ancho de la ventana */
+  font-size: 6vh; /* Tamaño de la fuente en relación con el alto de la ventana */
+  text-shadow: 2px 2px 4px rgba(25, 212, 0, 0.5); /* Efecto de sombra */
+  width: 35%; /* Ocupa el % del ancho del contenedor */
+  max-width: 500px; /* Ancho máximo */
+  margin-top: center; /* Margen automático */
+  margin-left: 10px; /* Margen izquierdo */
+  border: 1px;
+ 
+}
+
+/* Estilos para la barra de navegación */
+
+body #inicio nav{
+  position: absolute; /* Posición absoluta */
+  top: 0; /* Posición superior */
+  right: 0; /* Posición derecha */
+  margin-right: 10px; /* Margen superior */
+  padding-right: 10px; /* Relleno superior */
+  font-size: 6vw; /* Tamaño de la fuente en relación con el ancho de la ventana */
+  font-size: 8vh; /* Tamaño de la fuente en relación con el alto de la ventana */
+  text-shadow: 4px 4px 6px rgba(1, 223, 75, 0.5); /* Efecto de sombra */
+  
+}
+
+#inicio nav ul li {
+  display: inline; /* Muestra los elementos de la lista en línea */
+  margin-right: 10px; /* Espacio entre los elementos */
+}
+
+#inicio nav ul li a {
+  text-decoration: none; /* Elimina el subrayado de los enlaces */
+  color: black; /* Color del texto */
+  font-weight: bold; /* Texto en negrita */
+  font-size: 18px; /* Tamaño de la fuente */
+  transition: color 0.3s; /* Transición para un cambio suave de color */
+}
+
+#inicio nav a:hover {
+  text-shadow: 2px 2px 4px rgba(127, 2, 177, 0.5); /* Efecto de sombra */
+}
+
+header p {
+  font: oblique bold 200% cursive; /* Tipo de fuente */
+  max-width: 100%; /* Ancho máximo */
+  max-height: 20%; /* Alto máximo */
+  font-weight: 500; /* Texto en negrita */
+  margin-top: 27vh; /* Margen superior */
+  margin-left: 20vw; /* Margen izquierdo */
+  margin-right: 20vw; /* Margen derecho */
+  margin-bottom: 20px; /* Margen inferior */
+  padding-bottom: 10px; /* Relleno inferior */
+  color: #1d061d; /* Color del texto */
+  text-align: center; /* Centra el texto horizontalmente  dentro de su contenedor */
+  border-radius: 20%; /* Esto hará que la caja tenga bordes circulares */
+ 
+  
+  background-image: linear-gradient(to bottom, rgb(0, 183, 255), #fff); /* Degradado de azul a blanco */
+
+  font-size: 4vw; /* Tamaño de la fuente en relación con el ancho de la ventana */
+  font-size: 5vh; /* Tamaño de la fuente en relación con el alto de la ventana */
+}
+
+
+main {
+  margin-top: 10px;
+  
+}
+
+#Nosotros {
+  position: relative;
+}
+#Nosotros h2 {
+  max-width: 90%; /* Ancho máximo */
+  max-height: 5%; /* Alto máximo */
+  text-align: center; /* Centra el texto horizontalmente  dentro de su contenedor */
+  margin-top: 20px;
+ 
+  text-shadow: 2px 2px 4px rgba(61, 6, 107, 0.5); /* Efecto de sombra */
+}
+#Nosotros {
+  font-size: 20px; /* Tamaño de la fuente deseado */
+
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 90%;
+  border-radius: 10%; /* Esto hará que la caja tenga bordes circulares */
+ 
+  
+}
+
+#destinos {
+  position: relative;
+  width: 99%;
+  height: 90%;
+  display: grid;
+  grid-template-columns: repeat(3, 2fr); /* Define 5 columnas de igual tamaño */
+  grid-gap: 10px; /* Espacio de 20px entre las imágenes */
+ 
+}
+
+
+
+#destinos h2 {
+  position: absolute; /* Posición fija */
+  top: 0; /* Posición superior */
+  text-align: center; /* Centra el texto horizontalmente  dentro de su contenedor */
+  width: 99%; /* Ancho del contenedor */
+  height: 4vh;
+  margin: 0 auto; /* Margen automático */
+  text-shadow: 2px 2px 4px rgba(61, 6, 107, 0.5); /* Efecto de sombra */
+
+ 
+}
+/*.text{
+  position: absolute;
+  border: #470350 solid 1px;
+  top: 4%;
+  margin-left:15vw; /* Centra horizontalmente 
+ padding: auto;
+  width: 60%;
+  height: auto;
+  text-align: center; /* Centra el texto horizontalmente  dentro de su contenedor 
+}*/
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 18px;
+ 
+  padding: 20px;
+  margin-left: 22vw;
+  width: 52vw;
+  margin-top: 8vh;
+}
+.item {
+  position: relative;
+  overflow: hidden;
+}
+
+.item img {
+  width: 90%;
+  height: auto;
+  transition: transform 0.3s ease;
+  
+  border-radius: 10%; /* Esto hará que la caja tenga bordes circulares */
+}
+
+.item .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 30px;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.item:hover img {
+  transform: scale(1.2);
+}
+
+.item:hover .overlay {
+  opacity: 1;
+}
