@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(to bottom, rgb(255, 255, 255), #b6cee2); /* Degradado de azul a blanco */
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255), #dbecda,rgb(255,255,255)); /* Degradado de azul a blanco */
 
 }
 header {
@@ -9,10 +9,10 @@ header {
 header h1 {
   text-align: center;
   font-size: 50px;
-  color: rgb(187, 0, 0);
+  color: rgb(0, 85, 74);
   font-weight: bold;
-  font-family: serif;
-  text-shadow: 2px 2px 4px rgb(228, 170, 170);
+  font-family: ebrima, 'Trebuchet MS', sans-serif;
+  text-shadow: 2px 2px 4px rgb(251, 255, 0);
 
 }
 
@@ -32,7 +32,6 @@ main #paris_nav {
   justify-content: space-around;
   align-items: center;
   font-family: cursive 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  background-image: linear-gradient(to bottom, rgb(219, 121, 103), #fff); /* Degradado de azul a blanco */
   font-size: 1.5vw;
   border-radius: 4%;
 
@@ -62,7 +61,7 @@ main #paris_nav {
   margin-left: auto;
   margin-right: auto;
   font-size: 20px;
-  text-shadow: 2px 2px 4px rgba(61, 6, 107, 0.5);
+  text-shadow: 2px 2px 4px rgba(2, 7, 255, 0.5);
 }
 
 .gallery {
@@ -71,12 +70,12 @@ main #paris_nav {
   align-items: center;
   flex-wrap: wrap;
   margin-left: 15%;
-  background-color: #e4dfdf;
-  
+  background-image: linear-gradient(to bottom, rgb(255, 255, 255), #8feba3); /* Degradado de azul a blanco */
+  border-radius: 10%;
 }
 
 .item {
-  flex-basis: 30%; /* Tamaño inicial */
+  flex-basis: 40%; /* Tamaño inicial */
   position: relative;
 }
 
@@ -112,7 +111,7 @@ main #paris_nav {
 }
 
 #itinerario {
-  font-family: Arial, sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
  
   margin-left: 15%;
 margin-right: 15%;}

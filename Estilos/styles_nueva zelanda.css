@@ -10,10 +10,10 @@ header {
 header h1 {
   text-align: center;
   font-size: 50px;
-  color: rgb(187, 0, 0);
+  color: rgb(0, 187, 140);
   font-weight: bold;
   font-family: serif;
-  text-shadow: 2px 2px 4px rgb(228, 170, 170);
+  text-shadow: 2px 2px 4px rgb(85, 231, 231);
 
 }
 
@@ -33,7 +33,7 @@ main #paris_nav {
   justify-content: space-around;
   align-items: center;
   font-family: cursive 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  background-image: linear-gradient(to bottom, rgb(219, 121, 103), #fff); /* Degradado de azul a blanco */
+  background-image: linear-gradient(to bottom, rgb(157, 241, 247), #fff); /* Degradado de azul a blanco */
   font-size: 1.5vw;
   border-radius: 4%;
 
@@ -72,7 +72,8 @@ main #paris_nav {
   align-items: center;
   flex-wrap: wrap;
   margin-left: 15%;
-  background-color: #e4dfdf;
+  background-color: #ffffff;
+  background-image: linear-gradient(to bottom, rgb(255, 255, 255),  #b6cee2); /* Degradado de azul a blanco */
   
 }
 
@@ -82,7 +83,7 @@ main #paris_nav {
 }
 
 .large {
-  flex-basis: 60%; /* Tamaño mayor para la imagen grande */
+  flex-basis: 50%; /* Tamaño mayor para la imagen grande */
 }
 
 .item img {

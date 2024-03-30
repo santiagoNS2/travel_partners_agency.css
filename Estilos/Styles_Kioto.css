@@ -1,7 +1,6 @@
 body {
   scroll-behavior: smooth;
   background-color: rgba(250, 250, 250, 1);
-  border: 1px solid black;
   text-align: center;
 }
 section {
@@ -15,9 +14,17 @@ main {
   text-align: center;
   padding-left: 10%;
   padding-right: 10%;
-  border: solid 10px black;
-}
 
+
+}
+h1{
+  text-align: center;
+  font-size: 50px;
+  color: rgb(187, 53, 0);
+  font-weight: bold;
+  font-family: cursive;
+  text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
 #inicio {
   position: fixed; /* Posición fija */
   top: 0; /* Posición superior */
@@ -59,7 +66,7 @@ main #kioto_nav {
 }
 
 #kioto_nav ul li a {
-  color: rgb(255, 255, 255); /* Cambia esto al color deseado */
+  color: rgb(0, 0, 0); /* Cambia esto al color deseado */
   text-decoration: none;
   font-weight: bold;
 }
@@ -72,7 +79,9 @@ main #kioto_nav {
   margin-left: auto;
   margin-right: auto;
   font-size: 20px;
-  text-shadow: 3px 2px 4px rgba(204, 218, 8, 0.5);
+  text-shadow: 3px 2px 4px rgb(253, 176, 176);
+  background-image: linear-gradient(to bottom, rgb(206, 116, 116), #ffffff); /* Degradado de azul a blanco */
+  border-radius: 5%;
 }
 
 .gallery {
@@ -82,6 +91,8 @@ main #kioto_nav {
   flex-wrap: wrap;
   margin-left: 15%;
   background-color: #e4dfdf;
+  background-image: linear-gradient(to bottom, rgb(255, 255, 255), #f16565); /* Degradado de azul a blanco */
+  border-radius: 5%;
 }
 
 .item {
@@ -90,7 +101,7 @@ main #kioto_nav {
 }
 
 .large {
-  flex-basis: 60%; /* Tamaño mayor para la imagen grande */
+  flex-basis: 40%; /* Tamaño mayor para la imagen grande */
 }
 
 .item img {

@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(to bottom, rgb(255, 255, 255), #b6cee2); /* Degradado de azul a blanco */
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255), #ecb5b5); /* Degradado de azul a blanco */
 
 }
 header {
@@ -62,7 +62,7 @@ main #paris_nav {
   margin-left: auto;
   margin-right: auto;
   font-size: 20px;
-  text-shadow: 2px 2px 4px rgba(61, 6, 107, 0.5);
+  text-shadow: 2px 2px 4px rgba(107, 6, 6, 0.5);
 }
 
 .gallery {
