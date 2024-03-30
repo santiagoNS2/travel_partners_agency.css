@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Fondo gris claro */
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Centrar el contenido */
+}
+
+section {
+    max-width: 800px;
+    margin: 30px auto; /* Centrar horizontalmente */
+    background-color: #fff; /* Fondo blanco para las secciones */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px; /* Espacio después del título */
+}
+
+ul {
+    text-align: left; /* Alinear a la izquierda */
+    margin-left: 20px; /* Margen a la izquierda para los elementos de lista */
+    list-style-type: disc; /* Puntos para la lista */
+}
+
+ul li {
+    margin-bottom: 10px; /* Espacio entre elementos de lista */
+}
